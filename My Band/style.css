@@ -1,0 +1,115 @@
+
+/*-----------nav-bar-------------*/ 
+nav a {
+    padding: 16px;
+}
+  
+nav a:hover {
+    background-color: rgb(197, 193, 193); 
+}
+
+.dropbtn {
+    padding: 16px;
+    border: none;
+}
+
+.dropdown {
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.dropdown-content a {
+    padding: 12px 16px;
+    display: block;
+}
+
+.dropdown-content a:hover {background-color: #ddd;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {background-color: #3e8e41;}
+
+/*------background-image-------*/
+
+header{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(/img/pat-kay-B9j-xgMVf90-unsplash\ \(1\).jpg);
+    background-size: cover;
+}
+
+/* heading */
+
+.heading{
+    margin-top: 465px;
+}
+
+/* THE BNAD */
+
+.band-parpagrah{
+    text-align: justify;
+}
+
+/* tour dates */
+
+.tour-section{
+    align-items: center;  
+}
+
+.september-sections1{
+    height: 35px;
+    padding-left: 10px;
+    align-items: center;
+    width: 40%;  
+}
+
+.september-sections2{
+    height: 35px;
+    padding-left: 10px;
+    align-items: center;
+    width: 40%;
+}
+
+.september-sections3{
+    padding-left: 10px;
+    height: 35px;
+    align-items: center;
+    width: 40%;
+}
+
+.container{
+    flex-wrap: wrap;
+}
+
+.card{
+    width: 176px;
+}
+
+.card h2 {
+    padding: 5px;
+}
+
+.card p{
+    padding: 5px !important;
+}
+
+.card-image{
+    padding: 10px;
+    height: 150px;
+}
+
+.new-york{
+    background-image: url(/img/newyork.jpg);
+}
+
+.buy-ticks:hover{
+    background-color: rgb(177, 77, 177);
+    color: #000;
+    transition: 0.50;
+}
+
+.flex-container-row {
+    flex-wrap: wrap;
+}
